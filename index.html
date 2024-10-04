@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Mohammad Aamir" />
+  <meta name="description"
+    content="Welcome to Aamir's Portfolio. Passionate Web Developer & Machine learning Enthusiast." />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assests/css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assests/images/cmsoon.png" type="image/x-png">
+  <title>Portfolio</title>
+
+  <!-- emailjs script -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("6gNZZvz9sidtICi8L");
+    })();
+  </script>
+
+</head>
+
+<body oncontextmenu="return false">
+
+  <!-- pre loader -->
+  <div class="loader-container">
+    <img draggable="false" src="./assests/images/preloader3.gif" alt="">
+  </div>
+
+
+  <!-- navbar starts -->
+  <header>
+    <a href="/404.html" class="logo"><i class="fas fa-code"></i> MOHAMMAD AAMIR</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <!-- <li><a href="/problems/">Problems</a></li> -->
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
+
+  <!-- hero section starts -->
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+      <h3>Hi there,<br /> I'm Mohammad <span>Aamir</span></h3>
+      <p>i am into <span class="typing-text"></span></p>
+      <a href="#about" class="btn"><span>About Me</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" href="https://www.linkedin.com/in/mohammad-aamir-654179229/" target="_blank"><i
+                class="fab fa-linkedin"></i></a></li>
+          <li><a class="github" href="https://github.com/aamirmohd01" target="_blank"><i class="fab fa-github"></i></a>
+          </li>
+          <li><a class="YouTube" href="https://www.youtube.com/@mohammadaamir9985" target="_blank"><i
+                class="fab fa-youtube"></i></a></li>
+          <li><a class="twitter" href="https://x.com/aamirmohd01" target="_blank"><i class="fab fa-twitter"></i></a>
+          </li>
+          <!-- <li><a class="instagram" href="https://www.instagram.com/aamir01/"><i class="fab fa-instagram"
+                target="_blank"></i></a></li> -->
+
+        </ul>
+      </div>
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assests/images/hero3.gif" alt="">
+    </div>
+  </section>
+  <!-- hero section ends -->
+
+
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+
+    <div class="row">
+
+      <div class="image">
+        <img draggable="false" class="tilt" src="./assests/images/me.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>I'm Mohammad Aamir.</h3>
+        <span class="tag">Passionate MERN Developer | Machine learning Enthusiast </span>
+        <p id="about-text"></p>
+        <h3 class="tag">My Coding Profiles:</h3>
+        <div class="box-container">
+          <div class="box">
+            <p id="coding-text">
+            </p>
+          </div>
+        </div>
+
+        <div class="resumebtn">
+          <a href="https://drive.google.com/file/d/1jV0wlHfd5eNeJt5KFyMSaP9SnR97Q4HQ/view?usp=sharing" class="btn"
+            target="_blank"><span>Resume</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+  </section>
+  <!-- about section ends -->
+
+  <!-- skills section starts -->
+  <section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Technical Skills<!--- <span>Abilities</span> ---></h2>
+
+    <div class="container">
+      <div class="row" id="skillsContainer">
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- skills section ends -->
+
+  <!-- education section starts -->
+  <section class="education" id="education">
+
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <!-- <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p> -->
+
+    <div class="box-container">
+
+      <div class="box">
+        <div class="image">
+          <a href="https://www.acharya.ac.in/" target="_blank">
+            <img draggable="false" src="./assests/images/educat/college.png" alt=""
+              style="height: 150px; width: 150px;" />
+
+        </div>
+        <div class="content">
+          <h3>Bachelor of Engineering in Information Science & Engineering</h3>
+          <p>Final Year | Acharya Institute of Technology </p>
+          <p>CGPA: 8.28 (7th sem) </p>
+          <h4>2021-2025 | Pursuing</h4>
+          </a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <a href="https://iqraschool.edu.in/" target="_blank">
+            <img draggable="false" src="./assests/images/educat/school.png" alt=""
+              style="margin-top: 20px; height: 120px; width: 150px;" />
+        </div>
+        <div class="content">
+          <h3>Iqra Public School</h3>
+          <p> Class XII | 87.4% </p>
+          <p> Class X | 88%</p>
+          </a>
+          <h4>2019-2021 | Completed</h4>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- education section ends -->
+
+
+  <!-- work project section starts -->
+  <section class="work" id="projects">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects</span></h2>
+
+    <div class="box-container">
+
+      <div class="box tilt">
+        <img draggable="false" src="./assests/images/projects/mrs.png" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>Music RS using Text data</h3>
+          </div>
+          <div class="desc">
+            <p>A webapp which suggest songs based on user’s emotion.
+            </p>
+            <div class="btns">
+              <a href="/404.html" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+              <a href="https://github.com/aamirmohd01/music-recommendation-system-using-text-data" class="btn"
+                target="_blank">Code <i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box tilt">
+        <img draggable="false" src="./assests/images/projects/mcq.png" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>MCQ Exam Portal</h3>
+          </div>
+          <div class="desc">
+            <p>Developed a wep application to conduct MCQ exams in an online environment.</p>
+            <div class="btns">
+              <a href="/404.html" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+              <a href="https://github.com/aamirmohd01/online_mcq_exam_portal" class="btn" target="_blank">Code <i
+                  class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box tilt">
+        <img draggable="false" src="./assests/images/projects/moviers.png" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>Movie Recommender System</h3>
+          </div>
+          <div class="desc">
+            <p>A Web app based on Cosine similarity. It recommends movies to users based on their preferences and
+              similarity to other users' preferences.</p>
+            <div class="btns">
+              <a href="/404.html" class="btn" target="_blank"><i class="fas fa-eye"></i>
+                View</a>
+              <a href="https://github.com/aamirmohd01/Online-movie-recommender-system" class="btn" target="_blank">Code
+                <i class="fas fa-code"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="box tilt">
+        <img draggable="false" src="./assests/images/projects/ARCurve.png" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>AR-Curve [EJS]</h3>
+          </div>
+          <div class="desc">
+            <p>An app and a webpage with auth and learning features to explore more about Argumented Reality</p>
+            <div class="btns">
+              <a href="https://ar-curve.onrender.com/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+              <a href="https://github.com//ARCurve" class="btn" target="_blank"><i
+                  class="fas fa-code"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box tilt">
+        <img draggable="false" src="./assests/images/projects/calci.png" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>Calculator [React]</h3>
+          </div>
+          <div class="desc">
+            <p>A basic calculator app based react components</p>
+            <div class="btns">
+              <a href="https://.github.io/calculator/" class="btn" target="_blank"><i
+                  class="fas fa-eye"></i> View</a>
+              <a href="https://github.com//calculator" class="btn" target="_blank"><i
+                  class="fas fa-code"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box tilt">
+        <img draggable="false" src="./assests/images/projects/image_editor.png" alt="" />
+        <div class="content">
+          <div class="tag">
+            <h3>Image Editor [JS]</h3>
+          </div>
+          <div class="desc">
+            <p>An image editing app based on javascript libraries.</p>
+            <div class="btns">
+              <a href="https://aamir/Image-Editor-Project/" class="btn" target="_blank"><i
+                  class="fas fa-eye"></i> View</a>
+              <a href="https://github.com/aamir/Image-Editor-Project" class="btn" target="_blank"><i
+                  class="fas fa-code"></i> Code</a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="viewall">
+        <br>
+        <a href="/projects/" class="btn"><span>View All</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+  </section>
+  <!-- work project section ends -->
+
+  <!-- experience section starts -->
+  <section class="experience" id="experience">
+
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+    <div class="timeline">
+
+      <!-- <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Technical Content Engineer - Internship</h2>
+          </div>
+          <div class="desc">
+            <h3>HackerEarth</h3>
+            <p>Aug 2023 - Feb 2024</p>
+            <p>Worked on creating coding, oops and debugging problems and testing.
+          </p>
+          <br>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Software Developer Engineer - Internship</h2>
+          </div>
+          <div class="desc">
+            <h3>Zepto</h3>
+            <p>May 2023 - July 2023</p>
+            <p>Worked on Frontend with React Native and Backend with Go.
+            </p>
+            <br>
+          </div>
+        </div>
+      </div>
+      -->
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Research Intern</h2>
+          </div>
+          <div class="desc">
+            <h3>Advanced Materials </h3>
+            <p>April 2024 - Present</p>
+            <p>Developing Smart materails for research work and Core Principles</p>
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>SDE Intern at STAIRS </h2>
+          </div>
+          <div class="desc">
+            <h3> MERN Developer</h3>
+            <!-- <h2>Created  Acheiver</h2> -->
+            <p>Sep 2024 - Present</p>
+            <p>Developed the web pages and improved its accuracy </p>
+            <!-- In order to add the link to the more section include this below link-->
+            <!-- <p>Developed the web pages and improved its accuracy <a href="/problems/" style="color: #ffee00;">here</a></p> -->
+
+            <br>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="morebtn">
+        <a href="/experience/" class="btn"><span>View All</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div> -->
+
+    </div>
+
+  </section>
+  <!-- experience section ends -->
+
+  <!-- contact section starts -->
+  <section class="contact" id="contact">
+
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <img draggable="false" src="./assests/images/contact1.png" alt="">
+        </div>
+        <form id="contact-form">
+
+          <div class="form-group">
+            <div class="field">
+              <input type="text" name="name" placeholder="Name" required>
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="email" name="email" placeholder="Email" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+              <textarea placeholder="Message" name="message" required></textarea>
+              <i class="fas fa-comment-dots"></i>
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="submit">
+              Submit <i class="fa fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+
+  <!-- footer section starts -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Aamir's Portfolio</h3>
+        <p>Thank you for visiting my personal portfolio website.<br /> Connect with me over socials.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+
+        <p> <i class="fas fa-envelope"></i>mohammadm.21.beis@acharya.ac.in</p>
+        <p> <i class="fas fa-map-marked-alt"></i>Bengaluru, India</p>
+        <div class="share">
+          <a class="linkedin link_icon" href="https://www.linkedin.com/in/mohammad-aamir-654179229/" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a class="github link_icon" href="https://github.com/aamirmohd01" target="_blank"><i
+              class="fab fa-github"></i></a>
+          <a class="YouTube link_icon" href="https://www.youtube.com/@mohammadaamir9985" target="_blank"><i
+              class="fab fa-youtube"></i></a>
+          <a class="twitter link_icon" href="https://x.com/aamirmohd01" target="_blank"><i
+              class="fab fa-twitter"></i></a>
+          <!-- <a class="instagram link_icon" href="https://www.instagram.com/aamir/"><i class="fab fa-instagram"
+              target="_blank"></i></a> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/aamir/"> Aamir</a></h1> -->
+
+  </section>
+  <!-- footer section ends -->
+
+
+  <!-- scroll top btn -->
+  <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- scroll back to top -->
+
+
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- particle.js links -->
+  <script src="./assests/js/particles.min.js"></script>
+  <script src="./assests/js/app.js"></script>
+
+  <!-- vanilla tilt.js links -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- scroll reveal anim -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+  <script src="./assests/js/script.js"></script>
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>

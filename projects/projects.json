@@ -1,0 +1,35 @@
+[ 
+    {
+        "id": 1,
+        "name": "Music RS using Text [Transformer]",
+        "desc": "A webapp which suggest songs based on user’s emotion.",
+        "image": "../assests/images/projects/mrs.png",
+        "links": {
+            "view": "../404.html",
+            "code": "https://github.com/aamirmohd01/music-recommendation-system-using-text-data"
+        }
+    },
+    {
+        "id": 2,
+        "name": " MCQ Exam Portal [SQL, PHP]",
+        "desc": " Developed a wep application to conduct MCQ exams in an online environment.",
+        "image": "../assests/images/projects/mcq.png",
+        "links": {
+            "view": "../404.html",
+            "code": "https://github.com/aamirmohd01/online_mcq_exam_portal"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Movie Recommender System [ML]",
+        "desc": "A Web app based on Cosine similarity. It recommends movies to users based on their preferences and similarity to other users' preferences.",
+        "image": "../assests/images/projects/moviers.png",
+        "links": {
+            "view": "../404.html",
+            "code": "https://github.com/aamirmohd01/Online-movie-recommender-system"
+        }
+    }
+    
+    
+    
+]
